@@ -4,10 +4,10 @@ const MianBanner = () => {
   return (
     <div className="w-full font-avenir h-fit py-10 justify-center items-center gap-[71px] inline-flex">
       <div className="flex-col justify-center items-start gap-[15px] inline-flex">
-        <div className="w-full h-fit text-stone-800 text-[64px] font-['Avenir LT Std']">
+        <div className="w-full font-black h-fit text-stone-800 text-[64px]">
           Hello, I&apos;m Nikita
         </div>
-        <div className="w-[642px] text-black text-[32px] font-normal font-['Avenir LT Std']">
+        <div className="w-[642px] text-black text-[32px] font-normal">
           And I&apos;m a Creative Business Student from Inholland with
           experience in Event Planning
         </div>
