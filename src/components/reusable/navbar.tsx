@@ -49,33 +49,34 @@ const Navbar = () => {
         BRANDING
       </Link>
       <Link
-        href="/work-field-orientation"
+        href="/time-management"
         className={`hover:scale-105 hover:underline cursor-pointer grow shrink basis-0 h-fit text-center text-black text-2xl font-normal ${
-          pathname === "/work-field-orientation" ? "underline" : ""
+          pathname === "/time-management" ? "underline" : ""
         }`}
       >
-        WORK FIELD
+        TIME
         <br />
-        ORIENTATION
+        MANAGEMENT
       </Link>
       <Link
-        href="/theory-and-practice"
+        href="/business-management"
         className={`hover:scale-105 hover:underline cursor-pointer grow shrink basis-0 h-fit text-center text-black text-2xl font-normal ${
-          pathname === "/theory-and-practice" ? "underline" : ""
+          pathname === "/business-management" ? "underline" : ""
         }`}
       >
-        THEORY &<br />
-        PRACTICE
+        BUSINESS
+        <br />
+        MANAGEMENT
       </Link>
       <Link
-        href="/event-staging"
+        href="/media-skills"
         className={`hover:scale-105 hover:underline cursor-pointer grow shrink basis-0 h-fit text-center text-black text-2xl font-normal ${
-          pathname === "/event-staging" ? "underline" : ""
+          pathname === "/media-skills" ? "underline" : ""
         }`}
       >
-        EVENT
+        MEDIA
         <br />
-        STAGING
+        SKILLS
       </Link>
     </div>
   );
