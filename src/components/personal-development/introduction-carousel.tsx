@@ -32,7 +32,7 @@ const IntroductionCarousel = () => {
           />
           <div className="w-[571px] h-fit">
             <span className="text-text text-3xl font-black">
-              I am currently a bachelor's student and will be spending an
+              I am currently a bachelor&apos;s student and will be spending an
               exchange semester in the Netherlands, Amsterdam.
             </span>
             <span className="text-text text-3xl font-normal font-['Avenir LT Std']">
