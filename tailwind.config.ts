@@ -20,6 +20,27 @@ const config: Config = {
         background: "#FFFDFA",
         accent: "#F72487",
       },
+      textColor: {
+        text: "#3E2723",
+        primary: "#F16961",
+        secondary: "#3E5FB4",
+        background: "#FFFDFA",
+        accent: "#F72487",
+      },
+      backgroundColor: {
+        text: "#3E2723",
+        primary: "#F16961",
+        secondary: "#3E5FB4",
+        background: "#FFFDFA",
+        accent: "#F72487",
+      },
+      borderColor: {
+        text: "#3E2723",
+        primary: "#F16961",
+        secondary: "#3E5FB4",
+        background: "#FFFDFA",
+        accent: "#F72487",
+      },
       fontFamily: {
         avenir: ["var(--font-avenir)", "sans-serif"],
       },

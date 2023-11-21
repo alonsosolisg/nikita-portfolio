@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className="w-full font-avenir p-12 h-fit justify-center items-center inline-flex">
       <Link
         href="/"
-        className={`hover:scale-105 hover:underline cursor-pointer grow shrink basis-0 h-fit text-center text-black text-2xl font-normal ${
+        className={`hover:scale-105 hover:underline cursor-pointer grow shrink basis-0 h-fit text-center text-text text-2xl font-normal ${
           pathname === "/" ? "underline" : ""
         }`}
       >
@@ -20,7 +20,7 @@ const Navbar = () => {
       </Link>
       <Link
         href="/event-analysis"
-        className={`hover:scale-105 hover:underline cursor-pointer grow shrink basis-0 h-fit text-center text-black text-2xl font-normal ${
+        className={`hover:scale-105 hover:underline cursor-pointer grow shrink basis-0 h-fit text-center text-text text-2xl font-normal ${
           pathname === "/event-analysis" ? "underline" : ""
         }`}
       >
@@ -30,7 +30,7 @@ const Navbar = () => {
       </Link>
       <Link
         href="/expert-interview"
-        className={`hover:scale-105 hover:underline cursor-pointer grow shrink basis-0 h-fit text-center text-black text-2xl font-normal ${
+        className={`hover:scale-105 hover:underline cursor-pointer grow shrink basis-0 h-fit text-center text-text text-2xl font-normal ${
           pathname === "/expert-interview" ? "underline" : ""
         }`}
       >
@@ -40,7 +40,7 @@ const Navbar = () => {
       </Link>
       <Link
         href="/personal-branding"
-        className={`hover:scale-105 hover:underline cursor-pointer grow shrink basis-0 h-fit text-center text-black text-2xl font-normal ${
+        className={`hover:scale-105 hover:underline cursor-pointer grow shrink basis-0 h-fit text-center text-text text-2xl font-normal ${
           pathname === "/personal-branding" ? "underline" : ""
         }`}
       >
@@ -50,7 +50,7 @@ const Navbar = () => {
       </Link>
       <Link
         href="/time-management"
-        className={`hover:scale-105 hover:underline cursor-pointer grow shrink basis-0 h-fit text-center text-black text-2xl font-normal ${
+        className={`hover:scale-105 hover:underline cursor-pointer grow shrink basis-0 h-fit text-center text-text text-2xl font-normal ${
           pathname === "/time-management" ? "underline" : ""
         }`}
       >
@@ -60,7 +60,7 @@ const Navbar = () => {
       </Link>
       <Link
         href="/business-management"
-        className={`hover:scale-105 hover:underline cursor-pointer grow shrink basis-0 h-fit text-center text-black text-2xl font-normal ${
+        className={`hover:scale-105 hover:underline cursor-pointer grow shrink basis-0 h-fit text-center text-text text-2xl font-normal ${
           pathname === "/business-management" ? "underline" : ""
         }`}
       >
@@ -70,7 +70,7 @@ const Navbar = () => {
       </Link>
       <Link
         href="/media-skills"
-        className={`hover:scale-105 hover:underline cursor-pointer grow shrink basis-0 h-fit text-center text-black text-2xl font-normal ${
+        className={`hover:scale-105 hover:underline cursor-pointer grow shrink basis-0 h-fit text-center text-text text-2xl font-normal ${
           pathname === "/media-skills" ? "underline" : ""
         }`}
       >
