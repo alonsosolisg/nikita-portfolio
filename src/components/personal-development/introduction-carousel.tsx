@@ -12,7 +12,7 @@ const IntroductionCarousel = () => {
   const [currentSlide, setCurrentSlide] = React.useState(1);
 
   return (
-    <div className="py-20 transition-all">
+    <div className="pb-20 pt-8 transition-all">
       <h1
         style={{
           WebkitBackgroundClip: "text",
@@ -22,7 +22,8 @@ const IntroductionCarousel = () => {
         }}
         className="mb-20 w-full font-black h-fit text-[50px] text-center custom-gradient"
       >
-        My name is Nikita Eesmaa, I am 20 years old
+        Personal Development Plan: Introduction <br /> My name is Nikita Eesmaa,
+        I am 20 years old
       </h1>
       {currentSlide === 1 && (
         <div className="w-full select-none h-fit justify-center items-center gap-[95px] inline-flex">

@@ -1,13 +1,15 @@
-import MianBanner from "@/components/home/main-banner";
 import Blob from "@/components/reusable/blob";
 import Navbar from "@/components/reusable/navbar";
+import React from "react";
 
-export default function Home() {
+const EventAnalysis = () => {
   return (
-    <main className="font-avenir">
+    <main>
       <Navbar />
-      <MianBanner />
+      <Blob right={false} text="HOME" url="" />
       <Blob right={true} text="REFLECTION" url="reflection" />
     </main>
   );
-}
+};
+
+export default EventAnalysis;

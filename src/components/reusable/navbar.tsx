@@ -9,9 +9,9 @@ const Navbar = () => {
   return (
     <div className="w-full font-avenir p-12 h-fit justify-center items-center inline-flex">
       <Link
-        href="/"
+        href="/personal-development"
         className={`hover:scale-105 hover:underline cursor-pointer grow shrink basis-0 h-fit text-center text-text text-2xl font-normal ${
-          pathname === "/" ? "underline" : ""
+          pathname === "/personal-development" ? "underline" : ""
         }`}
       >
         PERSONAL
