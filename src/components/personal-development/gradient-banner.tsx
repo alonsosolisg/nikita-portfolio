@@ -1,6 +1,12 @@
 import React from "react";
 
-const GradientBanner = () => {
+const GradientBanner = ({
+  textEnter,
+  textLeave,
+}: {
+  textEnter: () => void;
+  textLeave: () => void;
+}) => {
   return (
     <div
       style={{
@@ -8,7 +14,11 @@ const GradientBanner = () => {
       }}
       className="w-full my-10 font-avenir h-[601px] flex-col justify-center items-center gap-2.5 inline-flex"
     >
-      <div className="w-[1090px] text-center">
+      <div
+        onMouseEnter={textEnter}
+        onMouseLeave={textLeave}
+        className="w-[1090px] text-center"
+      >
         <span className="text-text text-[45px] font-normal font-['Avenir LT Std']">
           My personal{" "}
         </span>

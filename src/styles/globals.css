@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  cursor: none;
+}
+
 .custom-gradient {
   background: linear-gradient(130deg, #3e5fb4, #f72487, #f16961, #fffdfa);
   animation: grain 5s ease-in-out infinite;
@@ -30,6 +34,7 @@
   margin-left: 30px;
   margin-bottom: 20px;
   animation: floatAnimation 2s ease-in-out infinite;
+  cursor: none;
 }
 
 .blob-right-container {
@@ -39,21 +44,24 @@
   margin-right: 30px;
   margin-bottom: 20px;
   animation: floatAnimation 2s ease-in-out infinite;
+  cursor: none;
 }
 
 .blob-container:hover {
   animation-play-state: paused;
+  cursor: none;
 }
 
 .blob-right-container:hover {
   animation-play-state: paused;
+  cursor: none;
 }
 
 .blob {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  cursor: pointer;
+  cursor: none;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -2,7 +2,17 @@ import React from "react";
 import { FaCircleChevronLeft } from "react-icons/fa6";
 import { FaCircleChevronRight } from "react-icons/fa6";
 
-const IntroductionCarousel = () => {
+const IntroductionCarousel = ({
+  textEnter,
+  textLeave,
+  imageEnter,
+  imageLeave,
+}: {
+  textEnter: () => void;
+  textLeave: () => void;
+  imageEnter: () => void;
+  imageLeave: () => void;
+}) => {
   const gradientStyle = {
     backgroundImage: `linear-gradient(to right, rgba(62, 95, 180, 1), rgba(119, 98, 154, 1), rgba(162, 101, 134, 1), rgba(216, 104, 109, 1), rgba(241, 105, 97, 1), rgba(242, 92, 104, 0.95), rgba(243, 80, 111, 0.9), rgba(245, 65, 119, 0.83), rgba(247, 36, 135, 0.71))`,
     backgroundSize: "200% 200%",
@@ -14,6 +24,8 @@ const IntroductionCarousel = () => {
   return (
     <div className="pb-20 pt-8 transition-all">
       <h1
+        onMouseEnter={textEnter}
+        onMouseLeave={textLeave}
         style={{
           WebkitBackgroundClip: "text",
           WebkitTextFillColor: "transparent",
@@ -28,10 +40,16 @@ const IntroductionCarousel = () => {
       {currentSlide === 1 && (
         <div className="w-full select-none h-fit justify-center items-center gap-[95px] inline-flex">
           <img
+            onMouseEnter={imageEnter}
+            onMouseLeave={imageLeave}
             className="w-[450px] h-[450px] rounded-[25px]"
             src="/images/intro_1.png"
           />
-          <div className="w-[571px] h-fit">
+          <div
+            onMouseEnter={textEnter}
+            onMouseLeave={textLeave}
+            className="w-[571px] h-fit"
+          >
             <span className="text-text text-3xl font-black">
               I am currently a bachelor&apos;s student and will be spending an
               exchange semester in the Netherlands, Amsterdam.
@@ -51,7 +69,11 @@ const IntroductionCarousel = () => {
       )}
       {currentSlide === 2 && (
         <div className="w-full select-none h-fit justify-center items-center gap-[93px] inline-flex">
-          <div className="w-[598px] h-fit text-right">
+          <div
+            onMouseEnter={textEnter}
+            onMouseLeave={textLeave}
+            className="w-[598px] h-fit text-right"
+          >
             <span className="text-text text-3xl font-black font-['Avenir LT Std']">
               As a true workaholic, I believe that you should always be prepared
               for unexpected situations
@@ -69,6 +91,8 @@ const IntroductionCarousel = () => {
             </span>
           </div>
           <img
+            onMouseEnter={imageEnter}
+            onMouseLeave={imageLeave}
             className="w-[450px] h-[450px] rounded-[25px]"
             src="/images/intro_2.png"
           />
@@ -77,10 +101,16 @@ const IntroductionCarousel = () => {
       {currentSlide === 3 && (
         <div className="w-full select-none h-fit justify-center items-center gap-[82px] inline-flex">
           <img
+            onMouseEnter={imageEnter}
+            onMouseLeave={imageLeave}
             className="w-[450px] h-[450px] rounded-[25px]"
             src="/images/intro_3.png"
           />
-          <div className="w-[563px] h-fit">
+          <div
+            onMouseEnter={textEnter}
+            onMouseLeave={textLeave}
+            className="w-[563px] h-fit"
+          >
             <span className="text-text text-3xl font-black font-['Avenir LT Std']">
               I like to enjoy the process of the game for me.
             </span>
@@ -99,7 +129,11 @@ const IntroductionCarousel = () => {
 
       {currentSlide === 4 && (
         <div className="w-full select-none h-fit justify-center items-center gap-[85px] inline-flex">
-          <div className="w-[598px] h-fit text-right">
+          <div
+            onMouseEnter={textEnter}
+            onMouseLeave={textLeave}
+            className="w-[598px] h-fit text-right"
+          >
             <span className="text-text text-3xl font-black font-['Avenir LT Std']">
               I also worked as a Coordinator in a logistics company and have a
               specialized education with international accreditation
@@ -116,12 +150,18 @@ const IntroductionCarousel = () => {
             </span>
           </div>
           <img
+            onMouseEnter={imageEnter}
+            onMouseLeave={imageLeave}
             className="w-[450px] h-[450px] rounded-[25px]"
             src="/images/intro_4.png"
           />
         </div>
       )}
-      <div className="w-full text-accent flex justify-center gap-3 mt-8">
+      <div
+        onMouseEnter={textEnter}
+        onMouseLeave={textLeave}
+        className="w-full text-accent flex justify-center gap-3 mt-8"
+      >
         <FaCircleChevronLeft
           onClick={() => {
             if (currentSlide === 1) {
@@ -130,7 +170,7 @@ const IntroductionCarousel = () => {
               setCurrentSlide(currentSlide - 1);
             }
           }}
-          className="w-7 h-7 cursor-pointer hover:scale-105"
+          className="w-7 h-7 hover:scale-125"
         />
         <FaCircleChevronRight
           onClick={() => {
@@ -140,7 +180,7 @@ const IntroductionCarousel = () => {
               setCurrentSlide(currentSlide + 1);
             }
           }}
-          className="w-7 h-7 cursor-pointer hover:scale-105"
+          className="w-7 h-7 hover:scale-125"
         />
       </div>
     </div>
