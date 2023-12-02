@@ -3,6 +3,13 @@ import Navbar from "@/components/reusable/navbar";
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { useRouter } from "next/router";
+import LearningGoal from "@/components/event-analysis/learning-goal";
+import TheFestival from "@/components/event-analysis/the-festival";
+import TargetGroup from "@/components/event-analysis/target-group";
+import FinanceAspects from "@/components/event-analysis/finance-aspects";
+import ProductionElements from "@/components/event-analysis/production-elements";
+import FutureAdvice from "@/components/event-analysis/future-advice";
+import ReflectionAnalysis from "@/components/event-analysis/reflection-analysis";
 
 const EventAnalysis = () => {
   const router = useRouter();
@@ -50,10 +57,10 @@ const EventAnalysis = () => {
       mixBlendMode: "difference",
     },
     image: {
-      x: mousePosition.x - 50,
-      y: mousePosition.y - 50,
-      height: 100,
-      width: 100,
+      x: mousePosition.x - 80,
+      y: mousePosition.y - 80,
+      height: 160,
+      width: 160,
       backgroundColor: "#FFFDFA",
       mixBlendMode: "difference",
     },
@@ -67,7 +74,7 @@ const EventAnalysis = () => {
   const imageLeave = () => setCursorVariant("default");
 
   return (
-    <main className="font-avenir">
+    <main className="font-avenir mix-blend-difference">
       <motion.div
         className="w-10 h-10 top-0 left-0 fixed rounded-full bg-accent z-50 pointer-events-none"
         variants={variants as any}
@@ -77,6 +84,49 @@ const EventAnalysis = () => {
         mousePosition={mousePosition}
         hoverEnter={hoverEnter}
         hoverLeave={hoverLeave}
+        backgroundColor="bg-primary"
+      />
+      <LearningGoal
+        imageEnter={imageEnter}
+        imageLeave={imageLeave}
+        textEnter={textEnter}
+        textLeave={textLeave}
+      />
+      <TheFestival
+        imageEnter={imageEnter}
+        imageLeave={imageLeave}
+        textEnter={textEnter}
+        textLeave={textLeave}
+      />
+      <TargetGroup
+        imageEnter={imageEnter}
+        imageLeave={imageLeave}
+        textEnter={textEnter}
+        textLeave={textLeave}
+      />
+      <FinanceAspects
+        imageEnter={imageEnter}
+        imageLeave={imageLeave}
+        textEnter={textEnter}
+        textLeave={textLeave}
+      />
+      <ProductionElements
+        imageEnter={imageEnter}
+        imageLeave={imageLeave}
+        textEnter={textEnter}
+        textLeave={textLeave}
+      />
+      <FutureAdvice
+        imageEnter={imageEnter}
+        imageLeave={imageLeave}
+        textEnter={textEnter}
+        textLeave={textLeave}
+      />
+      <ReflectionAnalysis
+        imageEnter={imageEnter}
+        imageLeave={imageLeave}
+        textEnter={textEnter}
+        textLeave={textLeave}
       />
       <Blob
         mousePosition={mousePosition}

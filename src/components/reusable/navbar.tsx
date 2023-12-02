@@ -1,21 +1,27 @@
-import Link from "next/link";
 import { useRouter } from "next/router";
-import React from "react";
+import React, { useState } from "react";
+import { CiCircleMore } from "react-icons/ci";
 
 const Navbar = ({
   hoverEnter,
   hoverLeave,
   mousePosition,
+  backgroundColor,
 }: {
   hoverEnter?: () => void;
   hoverLeave?: () => void;
   mousePosition?: { x: number; y: number };
+  backgroundColor?: string;
 }) => {
   const router = useRouter();
   const { pathname } = router;
-
+  const [toggleReflection, setToggleReflection] = useState(false);
   return (
-    <div className="w-full font-avenir p-12 h-fit justify-center items-center inline-flex">
+    <div
+      className={`w-full font-avenir ${
+        backgroundColor && `${backgroundColor}`
+      } p-12 h-fit justify-center items-center inline-flex`}
+    >
       <div
         onClick={() => {
           router.push({
@@ -135,6 +141,31 @@ const Navbar = ({
         <br />
         SKILLS
       </div>
+      <CiCircleMore
+        className={`w-7 h-7 hover:scale-150 ${
+          pathname === "/reflection" ? "hidden" : "flex"
+        }`}
+        onMouseEnter={hoverEnter}
+        onMouseLeave={hoverLeave}
+        onClick={() => {
+          setToggleReflection(!toggleReflection);
+        }}
+      />
+      {toggleReflection && (
+        <div
+          onClick={() => {
+            router.push({
+              pathname: `/reflection`,
+              query: mousePosition,
+            });
+          }}
+          onMouseEnter={hoverEnter}
+          onMouseLeave={hoverLeave}
+          className={`absolute right-0 mt-36 mr-10 bg-primary text-background cursor-none grow shrink basis-0 h-fit text-center rounded-2xl p-4 text-2xl font-normal`}
+        >
+          REFLECTION
+        </div>
+      )}
     </div>
   );
 };

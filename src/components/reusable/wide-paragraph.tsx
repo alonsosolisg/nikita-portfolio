@@ -14,7 +14,7 @@ const WideParagraph = ({
   textLeave: () => void;
   imageEnter: () => void;
   imageLeave: () => void;
-  text: string;
+  text: string | JSX.Element;
   textColor: string;
   backgroundColor: string;
   image: string;
