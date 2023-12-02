@@ -8,6 +8,9 @@ import Navbar from "@/components/reusable/navbar";
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { useRouter } from "next/router";
+import GoalsCarousel from "@/components/personal-development/goals-carousel";
+import MandatoryAssignments from "@/components/personal-development/mandatory-assignments";
+import FreeChoicePlanning from "@/components/personal-development/free-choice-planning";
 
 const PersonalDevelopment = () => {
   const router = useRouter();
@@ -103,6 +106,24 @@ const PersonalDevelopment = () => {
         textLeave={textLeave}
       />
       <WhoProducer
+        imageEnter={imageEnter}
+        imageLeave={imageLeave}
+        textEnter={textEnter}
+        textLeave={textLeave}
+      />
+      <GoalsCarousel
+        imageEnter={imageEnter}
+        imageLeave={imageLeave}
+        textEnter={textEnter}
+        textLeave={textLeave}
+      />
+      <MandatoryAssignments
+        imageEnter={imageEnter}
+        imageLeave={imageLeave}
+        textEnter={textEnter}
+        textLeave={textLeave}
+      />
+      <FreeChoicePlanning
         imageEnter={imageEnter}
         imageLeave={imageLeave}
         textEnter={textEnter}
