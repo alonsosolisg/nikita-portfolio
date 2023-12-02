@@ -27,6 +27,7 @@ const Carousel = ({
     <div>
       {content.map((item, index) => (
         <div
+          key={index}
           className={` ${index + 1 === currentSlide ? "flex" : "hidden"} ${
             (index + 1) % 2
               ? "text-left flex-row"
