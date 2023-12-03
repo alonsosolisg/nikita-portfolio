@@ -3,6 +3,7 @@ import Navbar from "@/components/reusable/navbar";
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { useRouter } from "next/router";
+import ReflectionMain from "@/components/reflection/reflection";
 
 const Reflection = () => {
   const router = useRouter();
@@ -77,6 +78,12 @@ const Reflection = () => {
         mousePosition={mousePosition}
         hoverEnter={hoverEnter}
         hoverLeave={hoverLeave}
+      />
+      <ReflectionMain
+        imageEnter={imageEnter}
+        imageLeave={imageLeave}
+        textEnter={textEnter}
+        textLeave={textLeave}
       />
       <Blob
         hoverEnter={hoverEnter}

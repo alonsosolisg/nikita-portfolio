@@ -300,8 +300,8 @@ const Business = ({
         textColor="accent"
         text={
           <div>
-            {organizationalBehaviorContent.map((content) => (
-              <div className="mb-4">
+            {organizationalBehaviorContent.map((content, index) => (
+              <div key={index} className="mb-4">
                 <h2 className="font-black mb-4">{content.title}</h2>
                 <p>{content.content}</p>
               </div>
