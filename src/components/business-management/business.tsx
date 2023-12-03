@@ -195,7 +195,7 @@ const Business = ({
   return (
     <div className="py-20">
       <Header
-        content={"Learning & Development Goal"}
+        content={"Business Management: Learning Goal"}
         textEnter={textEnter}
         textLeave={textLeave}
       />
@@ -271,53 +271,64 @@ const Business = ({
         textEnter={textEnter}
         textLeave={textLeave}
       />
-      <NarrowParagraph
-        image="/images/business-2.png"
-        text={
-          <p>
-            The sixth edition of &quot;Understanding and Managing Organizational
-            Behavior,&quot; penned by Jennifer M. George and Gareth R. Jones,
-            stands as an academic beacon, offering students a contemporary
-            exploration of the complex dynamics inherent in managing individuals
-            within organizational settings. The preface of this seminal work
-            serves as an intricate introduction, unraveling core themes,
-            objectives, and the overall structure of the text, akin to a compass
-            guiding readers through the labyrinth of organizational behavior
-            (OB) and offering them a strategic roadmap for navigating this
-            multifaceted landscape.
-          </p>
-        }
-        textColor="accent"
-        textPosition="right"
-        imageEnter={imageEnter}
-        imageLeave={imageLeave}
-        textEnter={textEnter}
-        textLeave={textLeave}
-      />
-      <WideParagraph
-        image="/images/wide-business-2.png"
-        backgroundColor="primary"
-        textColor="accent"
-        text={
-          <div>
-            {organizationalBehaviorContent.map((content, index) => (
-              <div key={index} className="mb-4">
-                <h2 className="font-black mb-4">{content.title}</h2>
-                <p>{content.content}</p>
+      <div className="py-10 mix-blend-difference mt-10 bg-pattern-8 bg-opacity-40 flex justify-center items-center">
+        <div className="bg-background p-12 rounded-xl w-fit h-fit flex justify-center flex-col items-center">
+          <Header
+            content={"Time Management Course"}
+            textEnter={textEnter}
+            textLeave={textLeave}
+          />
+          <NarrowParagraph
+            image="/images/business-2.png"
+            text={
+              <p>
+                The sixth edition of &quot;Understanding and Managing
+                Organizational Behavior,&quot; penned by Jennifer M. George and
+                Gareth R. Jones, stands as an academic beacon, offering students
+                a contemporary exploration of the complex dynamics inherent in
+                managing individuals within organizational settings. The preface
+                of this seminal work serves as an intricate introduction,
+                unraveling core themes, objectives, and the overall structure of
+                the text, akin to a compass guiding readers through the
+                labyrinth of organizational behavior (OB) and offering them a
+                strategic roadmap for navigating this multifaceted landscape.
+              </p>
+            }
+            textColor="accent"
+            textPosition="right"
+            imageEnter={imageEnter}
+            imageLeave={imageLeave}
+            textEnter={textEnter}
+            textLeave={textLeave}
+          />
+          <WideParagraph
+            image="/images/wide-business-2.png"
+            backgroundColor="primary"
+            textColor="accent"
+            text={
+              <div>
+                {organizationalBehaviorContent.map((content, index) => (
+                  <div key={index} className="mb-4">
+                    <h2 className="font-black mb-4">{content.title}</h2>
+                    <p>{content.content}</p>
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
-        }
-        imageEnter={imageEnter}
-        imageLeave={imageLeave}
-        textEnter={textEnter}
-        textLeave={textLeave}
-      />
-      <Header
-        content="Reflection Analysis"
-        textEnter={textEnter}
-        textLeave={textLeave}
-      />
+            }
+            imageEnter={imageEnter}
+            imageLeave={imageLeave}
+            textEnter={textEnter}
+            textLeave={textLeave}
+          />
+        </div>
+      </div>
+      <div className="mt-16">
+        <Header
+          content="Reflection Analysis"
+          textEnter={textEnter}
+          textLeave={textLeave}
+        />
+      </div>
       <WideParagraph
         image="/images/wide-business-3.png"
         backgroundColor="accent"

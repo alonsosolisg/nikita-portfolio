@@ -53,10 +53,10 @@ const TimeManagement = () => {
       mixBlendMode: "difference",
     },
     image: {
-      x: mousePosition.x - 50,
-      y: mousePosition.y - 50,
-      height: 100,
-      width: 100,
+      x: mousePosition.x - 80,
+      y: mousePosition.y - 80,
+      height: 160,
+      width: 160,
       backgroundColor: "#FFFDFA",
       mixBlendMode: "difference",
     },
@@ -70,7 +70,7 @@ const TimeManagement = () => {
   const imageLeave = () => setCursorVariant("default");
 
   return (
-    <main className="font-avenir">
+    <main className="font-avenir ">
       <motion.div
         className="w-10 h-10 top-0 left-0 fixed rounded-full bg-accent z-50 pointer-events-none"
         variants={variants as any}
@@ -80,6 +80,7 @@ const TimeManagement = () => {
         mousePosition={mousePosition}
         hoverEnter={hoverEnter}
         hoverLeave={hoverLeave}
+        backgroundColor="bg-accent"
       />
       <TManagement
         imageEnter={imageEnter}
