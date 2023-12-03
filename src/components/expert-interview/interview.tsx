@@ -200,22 +200,23 @@ const Interview = ({
             that both the interviewer and interviewee are aligned in their
             expectations. In cases where I may be interviewing well-known
             individuals, I realized the need to be original and stand out. To
-            achieve this, extensive research into the interviewee's background
-            and identifying intriguing aspects for discussion is crucial.
-            Furthermore, I acknowledged that people may become reserved or wary
-            during interviews, and I learned the value of initiating the
+            achieve this, extensive research into the interviewee&apos;s
+            background and identifying intriguing aspects for discussion is
+            crucial. Furthermore, I acknowledged that people may become reserved
+            or wary during interviews, and I learned the value of initiating the
             conversation in a friendly and non-intrusive manner, akin to a
             conversation with a friend. This approach puts the interviewee at
             ease, fostering a more open and fruitful exchange of information.
-            Additionally, reliability is paramount in interviews. It's crucial
-            to establish the circumstances surrounding the interview, such as
-            ensuring a quiet location for minimal disruptions and maintaining a
-            conducive interview posture. To maintain the integrity of the
-            interview, open-ended questions are over leading ones, and it's
-            important to embrace occasional pauses to allow the interviewee to
-            share information at their own pace. In essence, my preparation has
-            been focused on equipping myself with the knowledge and skills
-            necessary to conduct a successful and insightful interview.
+            Additionally, reliability is paramount in interviews. It&apos;s
+            crucial to establish the circumstances surrounding the interview,
+            such as ensuring a quiet location for minimal disruptions and
+            maintaining a conducive interview posture. To maintain the integrity
+            of the interview, open-ended questions are over leading ones, and
+            it&apos;s important to embrace occasional pauses to allow the
+            interviewee to share information at their own pace. In essence, my
+            preparation has been focused on equipping myself with the knowledge
+            and skills necessary to conduct a successful and insightful
+            interview.
           </p>
         }
         imageEnter={imageEnter}
@@ -587,43 +588,43 @@ const Interview = ({
             to approach interviews with an open mind and explore sensitive or
             challenging subjects was highlighted, showcasing the need for
             flexibility and adaptability in such roles. The relevance of
-            thorough preparation was evident in Denis and Jelena's approach to
-            organizing the FEI Equestrian Championship. The meticulous planning,
-            which began a year in advance, involved creating visual outlines and
-            utilizing tools like "Master Task" and "Mind Master" for effective
-            event management. This highlighted the importance of a structured
-            approach and the need for long-term planning to ensure the success
-            of a large-scale event. The interview shed light on the challenges
-            faced during the production of the championship, such as gaining
-            approval from the FEI and securing sponsors. Denis and Jelena's
-            determination to overcome these challenges showcased resilience and
-            highlighted the significance of perseverance in the face of
-            obstacles. Furthermore, the interview provided insights into the
-            multifaceted nature of a producer's role, involving aspects like
-            logistics, finance, marketing, and participant coordination. Denis's
-            emphasis on the importance of volunteers in executing the event
-            underscored the collaborative and team-oriented nature of event
-            management. The integration of technology and innovation in event
-            production was touched upon, with Denis mentioning the use of
-            interactive marketing strategies and an innovative method to reduce
-            environmental impact. This highlighted the role of technology in
-            enhancing the overall experience of both competitors and spectators.
-            Sustainability and eco-friendliness emerged as crucial
-            considerations in the recent FEI Equestrian Championship. Denis's
-            explanation of waste sorting measures and tree planting initiatives
-            demonstrated a commitment to responsible event management and
-            sustainable development. The interview provided valuable advice for
-            aspiring event producers, emphasizing the need for continuous
-            learning, attention to detail, and the ability to learn from
-            mistakes. Denis's personal philosophy of providing clients with an
-            unforgettable experience underscored the customer-centric approach
-            essential in event management. In conclusion, the expert interview
-            not only deepened my understanding of the producer's role in event
-            development but also provided practical insights and valuable
-            lessons applicable to personal and professional growth. The
-            experience reinforced the importance of adaptability, meticulous
-            planning, and a customer-centric approach in the dynamic field of
-            event management.
+            thorough preparation was evident in Denis and Jelena&apos;s approach
+            to organizing the FEI Equestrian Championship. The meticulous
+            planning, which began a year in advance, involved creating visual
+            outlines and utilizing tools like &quot;Master Task&quot; and
+            &quot;Mind Master&quot; for effective event management. This
+            highlighted the importance of a structured approach and the need for
+            long-term planning to ensure the success of a large-scale event. The
+            interview shed light on the challenges faced during the production
+            of the championship, such as gaining approval from the FEI and
+            securing sponsors. Denis and Jelena&apos;s determination to overcome
+            these challenges showcased resilience and highlighted the
+            significance of perseverance in the face of obstacles. Furthermore,
+            the interview provided insights into the multifaceted nature of a
+            producer&apos;s role, involving aspects like logistics, finance,
+            marketing, and participant coordination. Denis&apos;s emphasis on
+            the importance of volunteers in executing the event underscored the
+            collaborative and team-oriented nature of event management. The
+            integration of technology and innovation in event production was
+            touched upon, with Denis mentioning the use of interactive marketing
+            strategies and an innovative method to reduce environmental impact.
+            This highlighted the role of technology in enhancing the overall
+            experience of both competitors and spectators. Sustainability and
+            eco-friendliness emerged as crucial considerations in the recent FEI
+            Equestrian Championship. Denis&apos;s explanation of waste sorting
+            measures and tree planting initiatives demonstrated a commitment to
+            responsible event management and sustainable development. The
+            interview provided valuable advice for aspiring event producers,
+            emphasizing the need for continuous learning, attention to detail,
+            and the ability to learn from mistakes. Denis&apos;s personal
+            philosophy of providing clients with an unforgettable experience
+            underscored the customer-centric approach essential in event
+            management. In conclusion, the expert interview not only deepened my
+            understanding of the producer&apos;s role in event development but
+            also provided practical insights and valuable lessons applicable to
+            personal and professional growth. The experience reinforced the
+            importance of adaptability, meticulous planning, and a
+            customer-centric approach in the dynamic field of event management.
           </p>
         }
         imageEnter={imageEnter}
