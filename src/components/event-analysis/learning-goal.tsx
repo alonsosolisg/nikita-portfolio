@@ -44,25 +44,20 @@ const LearningGoal = ({
         textColor="background"
         text={
           <div>
-            The festival&apos;s dynamic atmosphere is yet another facet of its
-            allure. As the day transitions into night, the festival evolves,
-            offering a sense of adventure and wonder that keeps attendees
-            engaged and enthralled. One of the most commendable aspects of
-            Thuishaven Festival is its dedication to sustainability and
-            eco-friendliness. The festival actively follows sustainable
-            practices, including the use of eco-friendly materials, recycling,
-            and encouraging attendees to return bottles and other items for
-            reuse. This commitment to ecology and environmental responsibility
-            adds another layer of significance to the festival, making it a
-            conscientious and forward-thinking event. Thus, the Thuishaven
-            Festival&apos;s status as one of the best festivals is well-earned.
-            Its unique themes, diverse music, creative staging, immersive art,
-            inclusivity, strong organization, reputation, dynamic atmosphere,
-            and commitment to sustainability and eco-friendliness combine to
-            create an event that stands out in the world of music and arts
-            festivals. Thuishaven Festival is a testament to the power of
-            creativity, diversity, and the enduring spirit of artistic
-            innovation, all while preserving the planet for future generations.
+            In researching the Thuishaven Festival and its related topics, I
+            conducted a thorough investigation using a range of reputable
+            sources. These sources included databases i used different
+            databases. To ensure a comprehensive exploration, I employed
+            specific keywords such as &quot;Thuishaven Festival,&quot;
+            &quot;event organization,&quot; and &quot;music festivals.&quot;
+            These keywords were used in varying combinations to encompass a wide
+            spectrum of pertinent information. And also I watched a Documentary
+            film about the Thuishaven Festival and how this festival is
+            organized from backstage. In addition to these initial searches, I
+            implemented a snowball method by scrutinizing the references of the
+            sources I identified. This approach allowed me to uncover additional
+            materials and perspectives related to the Thuishaven Festival and
+            the event management industry.
           </div>
         }
         imageEnter={imageEnter}

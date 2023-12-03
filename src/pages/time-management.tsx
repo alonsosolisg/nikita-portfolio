@@ -3,6 +3,7 @@ import Navbar from "@/components/reusable/navbar";
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { useRouter } from "next/router";
+import TManagement from "@/components/time-management/t-management";
 
 const TimeManagement = () => {
   const router = useRouter();
@@ -79,6 +80,12 @@ const TimeManagement = () => {
         mousePosition={mousePosition}
         hoverEnter={hoverEnter}
         hoverLeave={hoverLeave}
+      />
+      <TManagement
+        imageEnter={imageEnter}
+        imageLeave={imageLeave}
+        textEnter={textEnter}
+        textLeave={textLeave}
       />
       <Blob
         hoverEnter={hoverEnter}
