@@ -3,6 +3,7 @@ import Navbar from "@/components/reusable/navbar";
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { useRouter } from "next/router";
+import Branding from "@/components/personal-branding/branding";
 
 const PersonalBranding = () => {
   const router = useRouter();
@@ -77,6 +78,12 @@ const PersonalBranding = () => {
         mousePosition={mousePosition}
         hoverEnter={hoverEnter}
         hoverLeave={hoverLeave}
+      />
+      <Branding
+        imageEnter={imageEnter}
+        imageLeave={imageLeave}
+        textEnter={textEnter}
+        textLeave={textLeave}
       />
       <Blob
         mousePosition={mousePosition}
