@@ -248,9 +248,7 @@ const Branding = ({
             image="/images/branding-3.png"
             text={
               <div>
-                <h2 className="font-black mb-4">
-                  Process of Developing My Persona
-                </h2>
+                <h2 className="font-black mb-4">Process of Developing My CV</h2>
                 <p>
                   I chose to create a simple and straightforward CV for my
                   portfolio because it allows me to communicate my professional
