@@ -17,7 +17,7 @@ const Media = ({
   return (
     <div className="py-20">
       <Header
-        content={"Learning & Development Goal"}
+        content={"Media Skill: Learning & Development Goal"}
         textEnter={textEnter}
         textLeave={textLeave}
       />

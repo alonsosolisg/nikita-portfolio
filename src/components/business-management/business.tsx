@@ -274,7 +274,7 @@ const Business = ({
       <div className="py-10 mix-blend-difference mt-10 bg-pattern-8 bg-opacity-40 flex justify-center items-center">
         <div className="bg-background p-12 rounded-xl w-fit h-fit flex justify-center flex-col items-center">
           <Header
-            content={"Time Management Course"}
+            content={"Business Management Book"}
             textEnter={textEnter}
             textLeave={textLeave}
           />
