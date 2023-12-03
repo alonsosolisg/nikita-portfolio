@@ -44,7 +44,7 @@ const ReflectionMain = ({
         <WideParagraph
           image="/images/wide-reflection.png"
           backgroundColor="primary"
-          textColor="accent"
+          textColor="text"
           text={
             <p>
               The analysis of the Thuishaven Festival stands as a testament to
