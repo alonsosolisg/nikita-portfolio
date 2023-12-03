@@ -3,6 +3,7 @@ import Navbar from "@/components/reusable/navbar";
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { useRouter } from "next/router";
+import Interview from "@/components/expert-interview/interview";
 
 const ExpertInterview = () => {
   const router = useRouter();
@@ -77,6 +78,12 @@ const ExpertInterview = () => {
         mousePosition={mousePosition}
         hoverEnter={hoverEnter}
         hoverLeave={hoverLeave}
+      />
+      <Interview
+        imageEnter={imageEnter}
+        imageLeave={imageLeave}
+        textEnter={textEnter}
+        textLeave={textLeave}
       />
       <Blob
         mousePosition={mousePosition}
