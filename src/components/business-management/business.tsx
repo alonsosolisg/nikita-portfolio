@@ -275,15 +275,16 @@ const Business = ({
         image="/images/mandatory-5.png"
         text={
           <p>
-            The sixth edition of "Understanding and Managing Organizational
-            Behavior," penned by Jennifer M. George and Gareth R. Jones, stands
-            as an academic beacon, offering students a contemporary exploration
-            of the complex dynamics inherent in managing individuals within
-            organizational settings. The preface of this seminal work serves as
-            an intricate introduction, unraveling core themes, objectives, and
-            the overall structure of the text, akin to a compass guiding readers
-            through the labyrinth of organizational behavior (OB) and offering
-            them a strategic roadmap for navigating this multifaceted landscape.
+            The sixth edition of &quot;Understanding and Managing Organizational
+            Behavior,&quot; penned by Jennifer M. George and Gareth R. Jones,
+            stands as an academic beacon, offering students a contemporary
+            exploration of the complex dynamics inherent in managing individuals
+            within organizational settings. The preface of this seminal work
+            serves as an intricate introduction, unraveling core themes,
+            objectives, and the overall structure of the text, akin to a compass
+            guiding readers through the labyrinth of organizational behavior
+            (OB) and offering them a strategic roadmap for navigating this
+            multifaceted landscape.
           </p>
         }
         textColor="accent"

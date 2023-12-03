@@ -3,6 +3,7 @@ import Navbar from "@/components/reusable/navbar";
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { useRouter } from "next/router";
+import Media from "@/components/media-skill/media";
 
 const MediaSkills = () => {
   const router = useRouter();
@@ -77,6 +78,12 @@ const MediaSkills = () => {
         mousePosition={mousePosition}
         hoverEnter={hoverEnter}
         hoverLeave={hoverLeave}
+      />
+      <Media
+        imageEnter={imageEnter}
+        imageLeave={imageLeave}
+        textEnter={textEnter}
+        textLeave={textLeave}
       />
       <Blob
         mousePosition={mousePosition}
