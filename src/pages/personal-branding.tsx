@@ -78,6 +78,7 @@ const PersonalBranding = () => {
         mousePosition={mousePosition}
         hoverEnter={hoverEnter}
         hoverLeave={hoverLeave}
+        backgroundColor="mix-blend-difference bg-secondary"
       />
       <Branding
         imageEnter={imageEnter}

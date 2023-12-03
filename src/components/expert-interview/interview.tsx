@@ -150,12 +150,14 @@ const Interview = ({
     },
   ];
   return (
-    <div className="py-20">
-      <Header
-        content={"Learning Goal & Preparation"}
-        textEnter={textEnter}
-        textLeave={textLeave}
-      />
+    <div>
+      <div className="pt-16">
+        <Header
+          content={"Expert Interview: Learning Goal"}
+          textEnter={textEnter}
+          textLeave={textLeave}
+        />
+      </div>
       <NarrowParagraph
         image="/images/goalprep-1.png"
         text={
@@ -176,7 +178,7 @@ const Interview = ({
       />
       <WideParagraph
         image="/images/wide-goalprep.png"
-        backgroundColor="primary"
+        backgroundColor="accent"
         textColor="accent"
         text={
           <p>
@@ -227,12 +229,14 @@ const Interview = ({
       />
       <WideParagraph
         image="/images/wide-intguide.png"
-        backgroundColor="primary"
-        textColor="text"
+        backgroundColor="secondary"
+        textColor="secondary"
         text={
           <div>
             <div className="mb-8">
-              <h3 className="text-2xl font-bold mb-2">Interview Details</h3>
+              <h3 className="text-3xl underline font-bold mb-2">
+                Interview Details
+              </h3>
               <ul className="list-disc pl-4">
                 <li>
                   <span className="font-bold">Interviewer name:</span> Jelena
@@ -279,7 +283,9 @@ const Interview = ({
             </div>
 
             <div className="mb-8">
-              <h3 className="text-2xl font-bold mb-4">Interview Questions</h3>
+              <h3 className="text-3xl underline font-bold mb-2">
+                Interview Questions
+              </h3>
 
               <ol className="list-decimal pl-6">
                 <li className="mb-4">
@@ -485,178 +491,211 @@ const Interview = ({
         textEnter={textEnter}
         textLeave={textLeave}
       />
-      <NarrowParagraph
-        image="/images/intguide-1.png"
-        text={
-          <p>
-            Who is Jelena Sbitneva?: Owner of Padise Equestrian Centre & Estonia
-            Equestrian Club, organizer of the FEI Endurance World Championship
-            for Young Horses 2023 (Padise, Estonia), founder of the global
-            social project Sportunio.org, Every year she organizes the National
-            Equestrian Championships, takes part in all processes of organizing
-            events from producing to conceptual solutions, she is also a Dollar
-            Millionaire and the main idol of equestrian sports in Estonia.
-          </p>
-        }
-        textColor="accent"
-        textPosition="left"
-        imageEnter={imageEnter}
-        imageLeave={imageLeave}
-        textEnter={textEnter}
-        textLeave={textLeave}
-      />
-      <NarrowParagraph
-        image="/images/intguide-2.png"
-        text={
-          <p>
-            Who is Denis Chirkovskiy?: Denis is a Producer of the FEI Endurance
-            World Championship for Young Horses 2023, Working in close contact
-            with Jelena Sbitneva one of the oldest members of the team in Padise
-            Equestrian Centre, Denis is a real Expert in Logistics, Marketing,
-            and Event Execution, having a lot of experience in organizing Events
-            in different domains.
-          </p>
-        }
-        textColor="accent"
-        textPosition="right"
-        imageEnter={imageEnter}
-        imageLeave={imageLeave}
-        textEnter={textEnter}
-        textLeave={textLeave}
-      />
-      <NarrowParagraph
-        image="/images/intguide-3.png"
-        text={
-          <p>
-            Location of Jelena Sbitneva and Denis: Lives directly in Tallinn,
-            Estonia during the preparation for the championships and during the
-            process of organizing events, and lives permanently in Dubai where
-            she and he directly negotiate with sponsors and potentially
-            interested parties.
-          </p>
-        }
-        textColor="accent"
-        textPosition="left"
-        imageEnter={imageEnter}
-        imageLeave={imageLeave}
-        textEnter={textEnter}
-        textLeave={textLeave}
-      />
-      <WideParagraph
-        image="/images/wide-interview.png"
-        backgroundColor="primary"
-        textColor="accent"
-        text={
-          <div>
-            <div className="mb-8">
-              <h3 className="text-2xl font-bold mb-2">Interview Questions</h3>
-              {interviewData.map((item, index) => (
-                <div key={index} className={index % 2 === 0 ? "odd" : "even"}>
-                  <p className="font-bold">{item.question}</p>
-                  <p className="ml-4">{item.response}</p>
+      <div className="py-10 mt-10 bg-pattern-6 bg-opacity-40 flex justify-center items-center">
+        <div className="bg-text p-12 rounded-xl w-fit h-fit flex justify-center flex-col items-center">
+          <h1
+            className="mb-6 w-full font-black h-fit text-[50px] text-center text-background"
+            onMouseEnter={textEnter}
+            onMouseLeave={textLeave}
+          >
+            About the Interview
+          </h1>
+          <NarrowParagraph
+            image="/images/intguide-1.png"
+            text={
+              <p>
+                Who is Jelena Sbitneva?: Owner of Padise Equestrian Centre &
+                Estonia Equestrian Club, organizer of the FEI Endurance World
+                Championship for Young Horses 2023 (Padise, Estonia), founder of
+                the global social project Sportunio.org, Every year she
+                organizes the National Equestrian Championships, takes part in
+                all processes of organizing events from producing to conceptual
+                solutions, she is also a Dollar Millionaire and the main idol of
+                equestrian sports in Estonia.
+              </p>
+            }
+            textColor="accent"
+            textPosition="left"
+            imageEnter={imageEnter}
+            imageLeave={imageLeave}
+            textEnter={textEnter}
+            textLeave={textLeave}
+          />
+          <NarrowParagraph
+            image="/images/intguide-2.png"
+            text={
+              <p>
+                Who is Denis Chirkovskiy?: Denis is a Producer of the FEI
+                Endurance World Championship for Young Horses 2023, Working in
+                close contact with Jelena Sbitneva one of the oldest members of
+                the team in Padise Equestrian Centre, Denis is a real Expert in
+                Logistics, Marketing, and Event Execution, having a lot of
+                experience in organizing Events in different domains.
+              </p>
+            }
+            textColor="background"
+            textPosition="right"
+            imageEnter={imageEnter}
+            imageLeave={imageLeave}
+            textEnter={textEnter}
+            textLeave={textLeave}
+          />
+          <NarrowParagraph
+            image="/images/intguide-3.png"
+            text={
+              <p>
+                Location of Jelena Sbitneva and Denis: Lives directly in
+                Tallinn, Estonia during the preparation for the championships
+                and during the process of organizing events, and lives
+                permanently in Dubai where she and he directly negotiate with
+                sponsors and potentially interested parties.
+              </p>
+            }
+            textColor="accent"
+            textPosition="left"
+            imageEnter={imageEnter}
+            imageLeave={imageLeave}
+            textEnter={textEnter}
+            textLeave={textLeave}
+          />
+          <WideParagraph
+            image="/images/wide-interview.png"
+            backgroundColor="accent"
+            textColor="background"
+            text={
+              <div>
+                <div className="mb-8">
+                  <h3 className="text-2xl font-bold mb-2">
+                    Interview Questions
+                  </h3>
+                  {interviewData.map((item, index) => (
+                    <div
+                      key={index}
+                      className={index % 2 === 0 ? "odd" : "even"}
+                    >
+                      <p className="font-bold">{item.question}</p>
+                      <p className="ml-4">{item.response}</p>
+                    </div>
+                  ))}
                 </div>
-              ))}
-            </div>
-          </div>
-        }
-        imageEnter={imageEnter}
-        imageLeave={imageLeave}
-        textEnter={textEnter}
-        textLeave={textLeave}
-      />
-      <LocalVideoPlayer height={400} width={1200} src="interview" />
-      <Header
-        content="Reflection Analysis"
-        textEnter={textEnter}
-        textLeave={textLeave}
-      />
-      <WideParagraph
-        image="/images/wide-reflection-time-2.png"
-        backgroundColor="accent"
-        textColor="text"
-        text={
-          <p>
-            Embarking on the journey of researching and analyzing the role of a
-            producer in event development through an expert interview proved to
-            be a transformative experience for my personal development. The
-            insights gained from the interview with Denis Chirkovskiy and Jelena
-            Sbitneva provided a deep understanding of the intricacies involved
-            in organizing a significant event, particularly in the equestrian
-            world. One of the key takeaways from the interview was the emphasis
-            on the importance of active listening and astute questioning in
-            conducting successful personal interviews. This, I realized, is
-            crucial not only for extracting meaningful information but also for
-            establishing a genuine connection with the interviewee. The ability
-            to approach interviews with an open mind and explore sensitive or
-            challenging subjects was highlighted, showcasing the need for
-            flexibility and adaptability in such roles. The relevance of
-            thorough preparation was evident in Denis and Jelena&apos;s approach
-            to organizing the FEI Equestrian Championship. The meticulous
-            planning, which began a year in advance, involved creating visual
-            outlines and utilizing tools like &quot;Master Task&quot; and
-            &quot;Mind Master&quot; for effective event management. This
-            highlighted the importance of a structured approach and the need for
-            long-term planning to ensure the success of a large-scale event. The
-            interview shed light on the challenges faced during the production
-            of the championship, such as gaining approval from the FEI and
-            securing sponsors. Denis and Jelena&apos;s determination to overcome
-            these challenges showcased resilience and highlighted the
-            significance of perseverance in the face of obstacles. Furthermore,
-            the interview provided insights into the multifaceted nature of a
-            producer&apos;s role, involving aspects like logistics, finance,
-            marketing, and participant coordination. Denis&apos;s emphasis on
-            the importance of volunteers in executing the event underscored the
-            collaborative and team-oriented nature of event management. The
-            integration of technology and innovation in event production was
-            touched upon, with Denis mentioning the use of interactive marketing
-            strategies and an innovative method to reduce environmental impact.
-            This highlighted the role of technology in enhancing the overall
-            experience of both competitors and spectators. Sustainability and
-            eco-friendliness emerged as crucial considerations in the recent FEI
-            Equestrian Championship. Denis&apos;s explanation of waste sorting
-            measures and tree planting initiatives demonstrated a commitment to
-            responsible event management and sustainable development. The
-            interview provided valuable advice for aspiring event producers,
-            emphasizing the need for continuous learning, attention to detail,
-            and the ability to learn from mistakes. Denis&apos;s personal
-            philosophy of providing clients with an unforgettable experience
-            underscored the customer-centric approach essential in event
-            management. In conclusion, the expert interview not only deepened my
-            understanding of the producer&apos;s role in event development but
-            also provided practical insights and valuable lessons applicable to
-            personal and professional growth. The experience reinforced the
-            importance of adaptability, meticulous planning, and a
-            customer-centric approach in the dynamic field of event management.
-          </p>
-        }
-        imageEnter={imageEnter}
-        imageLeave={imageLeave}
-        textEnter={textEnter}
-        textLeave={textLeave}
-      />
-      <div className="mt-10">
-        <Header
-          content="Time Registration"
-          textEnter={textEnter}
-          textLeave={textLeave}
-        />
+              </div>
+            }
+            imageEnter={imageEnter}
+            imageLeave={imageLeave}
+            textEnter={textEnter}
+            textLeave={textLeave}
+          />
+        </div>
+      </div>
+      <div className="bg-accent py-10">
+        <h1
+          className="mb-6 w-full font-black h-fit text-[50px] text-center text-background"
+          onMouseEnter={textEnter}
+          onMouseLeave={textLeave}
+        >
+          Interview Video
+        </h1>
+        <LocalVideoPlayer height={400} width={1200} src="interview" />
+        <h1
+          className="mb-6 pt-10 w-full font-black h-fit text-[50px] text-center text-background"
+          onMouseEnter={textEnter}
+          onMouseLeave={textLeave}
+        >
+          Reflection Analysis
+        </h1>
         <WideParagraph
-          image="/images/wide-reflection-time-3.png"
-          backgroundColor="primary"
-          textColor="text"
+          image="/images/wide-reflection-time-2.png"
+          backgroundColor="background"
+          textColor="background"
           text={
-            <div>
-              I calculated the hours for my expert interview. In the end total
-              amount of hours I spent in total 34 hours this includes all steps
-              of the assignment looking for Production and Interview Materials
-              and in the end Interview Execution.
-            </div>
+            <p>
+              Embarking on the journey of researching and analyzing the role of
+              a producer in event development through an expert interview proved
+              to be a transformative experience for my personal development. The
+              insights gained from the interview with Denis Chirkovskiy and
+              Jelena Sbitneva provided a deep understanding of the intricacies
+              involved in organizing a significant event, particularly in the
+              equestrian world. One of the key takeaways from the interview was
+              the emphasis on the importance of active listening and astute
+              questioning in conducting successful personal interviews. This, I
+              realized, is crucial not only for extracting meaningful
+              information but also for establishing a genuine connection with
+              the interviewee. The ability to approach interviews with an open
+              mind and explore sensitive or challenging subjects was
+              highlighted, showcasing the need for flexibility and adaptability
+              in such roles. The relevance of thorough preparation was evident
+              in Denis and Jelena&apos;s approach to organizing the FEI
+              Equestrian Championship. The meticulous planning, which began a
+              year in advance, involved creating visual outlines and utilizing
+              tools like &quot;Master Task&quot; and &quot;Mind Master&quot; for
+              effective event management. This highlighted the importance of a
+              structured approach and the need for long-term planning to ensure
+              the success of a large-scale event. The interview shed light on
+              the challenges faced during the production of the championship,
+              such as gaining approval from the FEI and securing sponsors. Denis
+              and Jelena&apos;s determination to overcome these challenges
+              showcased resilience and highlighted the significance of
+              perseverance in the face of obstacles. Furthermore, the interview
+              provided insights into the multifaceted nature of a
+              producer&apos;s role, involving aspects like logistics, finance,
+              marketing, and participant coordination. Denis&apos;s emphasis on
+              the importance of volunteers in executing the event underscored
+              the collaborative and team-oriented nature of event management.
+              The integration of technology and innovation in event production
+              was touched upon, with Denis mentioning the use of interactive
+              marketing strategies and an innovative method to reduce
+              environmental impact. This highlighted the role of technology in
+              enhancing the overall experience of both competitors and
+              spectators. Sustainability and eco-friendliness emerged as crucial
+              considerations in the recent FEI Equestrian Championship.
+              Denis&apos;s explanation of waste sorting measures and tree
+              planting initiatives demonstrated a commitment to responsible
+              event management and sustainable development. The interview
+              provided valuable advice for aspiring event producers, emphasizing
+              the need for continuous learning, attention to detail, and the
+              ability to learn from mistakes. Denis&apos;s personal philosophy
+              of providing clients with an unforgettable experience underscored
+              the customer-centric approach essential in event management. In
+              conclusion, the expert interview not only deepened my
+              understanding of the producer&apos;s role in event development but
+              also provided practical insights and valuable lessons applicable
+              to personal and professional growth. The experience reinforced the
+              importance of adaptability, meticulous planning, and a
+              customer-centric approach in the dynamic field of event
+              management.
+            </p>
           }
           imageEnter={imageEnter}
           imageLeave={imageLeave}
           textEnter={textEnter}
           textLeave={textLeave}
         />
+        <div className="mt-10">
+          <h1
+            className="mb-6 pt-10 w-full font-black h-fit text-[50px] text-center text-background"
+            onMouseEnter={textEnter}
+            onMouseLeave={textLeave}
+          >
+            Time Registration{" "}
+          </h1>
+          <WideParagraph
+            image="/images/wide-reflection-time-3.png"
+            backgroundColor="secondary"
+            textColor="background"
+            text={
+              <div>
+                I calculated the hours for my expert interview. In the end total
+                amount of hours I spent in total 34 hours this includes all
+                steps of the assignment looking for Production and Interview
+                Materials and in the end Interview Execution.
+              </div>
+            }
+            imageEnter={imageEnter}
+            imageLeave={imageLeave}
+            textEnter={textEnter}
+            textLeave={textLeave}
+          />
+        </div>
       </div>
     </div>
   );

@@ -78,6 +78,7 @@ const ExpertInterview = () => {
         mousePosition={mousePosition}
         hoverEnter={hoverEnter}
         hoverLeave={hoverLeave}
+        backgroundColor="bg-primary"
       />
       <Interview
         imageEnter={imageEnter}
