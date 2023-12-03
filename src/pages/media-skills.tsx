@@ -51,10 +51,10 @@ const MediaSkills = () => {
       mixBlendMode: "difference",
     },
     image: {
-      x: mousePosition.x - 50,
-      y: mousePosition.y - 50,
-      height: 100,
-      width: 100,
+      x: mousePosition.x - 80,
+      y: mousePosition.y - 80,
+      height: 160,
+      width: 160,
       backgroundColor: "#FFFDFA",
       mixBlendMode: "difference",
     },
@@ -78,6 +78,7 @@ const MediaSkills = () => {
         mousePosition={mousePosition}
         hoverEnter={hoverEnter}
         hoverLeave={hoverLeave}
+        backgroundColor="mix-blend-difference bg-primary"
       />
       <Media
         imageEnter={imageEnter}
