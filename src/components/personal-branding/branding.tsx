@@ -54,21 +54,22 @@ const Branding = ({
         textColor="accent"
         text={
           <p>
-            In today's landscape, personal branding has become ubiquitous, with
-            individuals increasingly showcasing the face behind their ventures.
-            This trend is particularly pronounced among service-oriented
-            entrepreneurs, as it has evolved into a primary method of marketing
-            and branding. The power of video in providing an intimate
-            understanding of individuals is unparalleled, making it an ideal
-            medium for personal branding. Me as a professional, the task at hand
-            involves skillfully crafting a creative representation of oneself
-            through video for acquisition purposes. I undertook the challenge of
-            creating a PR video that serves as a snapshot of my identity. In
-            this concise video, I share insights into who I am, what sets me
-            apart, my hobbies, areas of expertise, testimonials from others, and
-            articulate my aspirations. The aim is to present a compelling and
-            unique narrative that not only introduces me but also serves as a
-            powerful tool for professional engagement and networking.
+            In today&apos;s landscape, personal branding has become ubiquitous,
+            with individuals increasingly showcasing the face behind their
+            ventures. This trend is particularly pronounced among
+            service-oriented entrepreneurs, as it has evolved into a primary
+            method of marketing and branding. The power of video in providing an
+            intimate understanding of individuals is unparalleled, making it an
+            ideal medium for personal branding. Me as a professional, the task
+            at hand involves skillfully crafting a creative representation of
+            oneself through video for acquisition purposes. I undertook the
+            challenge of creating a PR video that serves as a snapshot of my
+            identity. In this concise video, I share insights into who I am,
+            what sets me apart, my hobbies, areas of expertise, testimonials
+            from others, and articulate my aspirations. The aim is to present a
+            compelling and unique narrative that not only introduces me but also
+            serves as a powerful tool for professional engagement and
+            networking.
           </p>
         }
         imageEnter={imageEnter}
@@ -87,7 +88,7 @@ const Branding = ({
           <p>
             Why logo is important for Personal Branding?: In the realm of
             personal branding, a logo becomes a powerful emblem encapsulating
-            the essence of one's individual identity. Serving as a visual
+            the essence of one&apos;s individual identity. Serving as a visual
             touchstone, a thoughtfully crafted logo imparts a sense of
             professionalism and meticulous personal branding. It acts as a
             consistent thread woven through various platforms, from social media
@@ -209,18 +210,18 @@ const Branding = ({
             <p>
               I chose to create a simple and straightforward CV for my portfolio
               because it allows me to communicate my professional identity in a
-              way that's clear and impactful. I believe that a concise resume is
-              crucial in ensuring that potential employers or collaborators can
-              quickly understand my key qualifications, experiences, and skills.
-              In a competitive environment, simplicity enhances the readability
-              of my CV, making it more likely to catch the attention of
-              recruiters who often have limited time to review each application.
-              I see simplicity as a demonstration of my professionalism and
-              organizational skills, indicating to others that I can communicate
-              complex information in a concise manner. Ultimately, a
-              straightforward CV in my portfolio serves as a tool to showcase my
-              strengths and make a memorable impression on those evaluating my
-              qualifications.
+              way that&apos;s clear and impactful. I believe that a concise
+              resume is crucial in ensuring that potential employers or
+              collaborators can quickly understand my key qualifications,
+              experiences, and skills. In a competitive environment, simplicity
+              enhances the readability of my CV, making it more likely to catch
+              the attention of recruiters who often have limited time to review
+              each application. I see simplicity as a demonstration of my
+              professionalism and organizational skills, indicating to others
+              that I can communicate complex information in a concise manner.
+              Ultimately, a straightforward CV in my portfolio serves as a tool
+              to showcase my strengths and make a memorable impression on those
+              evaluating my qualifications.
             </p>
           </div>
         }
