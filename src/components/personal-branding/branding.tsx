@@ -2,6 +2,7 @@ import React from "react";
 import WideParagraph from "../reusable/wide-paragraph";
 import Header from "../reusable/header";
 import NarrowParagraph from "../reusable/narrow-paragraph";
+import LocalVideoPlayer from "../reusable/video-player";
 
 const Branding = ({
   textEnter,
@@ -22,7 +23,7 @@ const Branding = ({
         textLeave={textLeave}
       />
       <NarrowParagraph
-        image="/images/mandatory-5.png"
+        image="/images/pr-goal.png"
         text={
           <p>
             I want to present myself as a Specialist. The Personal Branding task
@@ -48,8 +49,9 @@ const Branding = ({
         textEnter={textEnter}
         textLeave={textLeave}
       />
+      <LocalVideoPlayer height={400} width={1200} src="prvid" />
       <WideParagraph
-        image="/images/wide-prod-1.png"
+        image="/images/wide-pr-goal.png"
         backgroundColor="primary"
         textColor="accent"
         text={
@@ -83,7 +85,7 @@ const Branding = ({
         textLeave={textLeave}
       />
       <NarrowParagraph
-        image="/images/mandatory-5.png"
+        image="/images/branding-1.png"
         text={
           <p>
             Why logo is important for Personal Branding?: In the realm of
@@ -107,7 +109,7 @@ const Branding = ({
         textLeave={textLeave}
       />
       <NarrowParagraph
-        image="/images/mandatory-5.png"
+        image="/images/branding-2.png"
         text={
           <p>
             Why I create exactly this Logo and what the meaning of the Logo?: I
@@ -130,7 +132,7 @@ const Branding = ({
         textLeave={textLeave}
       />
       <WideParagraph
-        image="/images/wide-prod-1.png"
+        image="/images/wide-branding-1.png"
         backgroundColor="primary"
         textColor="accent"
         text={
@@ -165,7 +167,7 @@ const Branding = ({
         textLeave={textLeave}
       />
       <WideParagraph
-        image="/images/wide-prod-1.png"
+        image="/images/wide-branding-2.png"
         backgroundColor="primary"
         textColor="accent"
         text={
@@ -203,7 +205,7 @@ const Branding = ({
         textLeave={textLeave}
       />
       <NarrowParagraph
-        image="/images/mandatory-5.png"
+        image="/images/branding-3.png"
         text={
           <div>
             <h2>Process of Developing My Persona</h2>
@@ -238,7 +240,7 @@ const Branding = ({
         textLeave={textLeave}
       />
       <WideParagraph
-        image="/images/wide-reflection-event-1.png"
+        image="/images/wide-brand-reflection-1.png"
         backgroundColor="accent"
         textColor="text"
         text={
@@ -295,7 +297,7 @@ const Branding = ({
           textLeave={textLeave}
         />
         <WideParagraph
-          image="/images/wide-reflection-event-2.png"
+          image="/images/wide-brand-reflection-3.png"
           backgroundColor="primary"
           textColor="text"
           text={

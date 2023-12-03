@@ -2,6 +2,7 @@ import React from "react";
 import NarrowParagraph from "../reusable/narrow-paragraph";
 import WideParagraph from "../reusable/wide-paragraph";
 import Header from "../reusable/header";
+import LocalVideoPlayer from "../reusable/video-player";
 
 const Interview = ({
   textEnter,
@@ -156,7 +157,7 @@ const Interview = ({
         textLeave={textLeave}
       />
       <NarrowParagraph
-        image="/images/mandatory-5.png"
+        image="/images/goalprep-1.png"
         text={
           <p>
             Engaging in an interview with an industry expert aligns perfectly
@@ -174,7 +175,7 @@ const Interview = ({
         textLeave={textLeave}
       />
       <WideParagraph
-        image="/images/wide-prod-1.png"
+        image="/images/wide-goalprep.png"
         backgroundColor="primary"
         textColor="accent"
         text={
@@ -225,7 +226,7 @@ const Interview = ({
         textLeave={textLeave}
       />
       <WideParagraph
-        image="/images/wide-prod-1.png"
+        image="/images/wide-intguide.png"
         backgroundColor="primary"
         textColor="text"
         text={
@@ -485,7 +486,7 @@ const Interview = ({
         textLeave={textLeave}
       />
       <NarrowParagraph
-        image="/images/mandatory-5.png"
+        image="/images/intguide-1.png"
         text={
           <p>
             Who is Jelena Sbitneva?: Owner of Padise Equestrian Centre & Estonia
@@ -505,7 +506,7 @@ const Interview = ({
         textLeave={textLeave}
       />
       <NarrowParagraph
-        image="/images/mandatory-5.png"
+        image="/images/intguide-2.png"
         text={
           <p>
             Who is Denis Chirkovskiy?: Denis is a Producer of the FEI Endurance
@@ -524,7 +525,7 @@ const Interview = ({
         textLeave={textLeave}
       />
       <NarrowParagraph
-        image="/images/mandatory-5.png"
+        image="/images/intguide-3.png"
         text={
           <p>
             Location of Jelena Sbitneva and Denis: Lives directly in Tallinn,
@@ -542,7 +543,7 @@ const Interview = ({
         textLeave={textLeave}
       />
       <WideParagraph
-        image="/images/wide-prod-1.png"
+        image="/images/wide-interview.png"
         backgroundColor="primary"
         textColor="accent"
         text={
@@ -563,13 +564,14 @@ const Interview = ({
         textEnter={textEnter}
         textLeave={textLeave}
       />
+      <LocalVideoPlayer height={400} width={1200} src="interview" />
       <Header
         content="Reflection Analysis"
         textEnter={textEnter}
         textLeave={textLeave}
       />
       <WideParagraph
-        image="/images/wide-reflection-event-1.png"
+        image="/images/wide-reflection-time-2.png"
         backgroundColor="accent"
         textColor="text"
         text={
@@ -639,7 +641,7 @@ const Interview = ({
           textLeave={textLeave}
         />
         <WideParagraph
-          image="/images/wide-reflection-event-2.png"
+          image="/images/wide-reflection-time-3.png"
           backgroundColor="primary"
           textColor="text"
           text={

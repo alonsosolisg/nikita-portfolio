@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const WideParagraph = ({
@@ -32,11 +33,14 @@ const WideParagraph = ({
         <div
           className={`w-[1057px] h-[530px] left-[24px] top-[30px] absolute bg-${backgroundColor} rounded-[20px]`}
         />
-        <img
+        <Image
           onMouseEnter={imageEnter}
           onMouseLeave={imageLeave}
           className="w-[1056px] h-[529px] left-0 top-0 absolute rounded-[20px]"
           src={image}
+          alt={image}
+          width={1056}
+          height={529}
         />
       </div>
     </div>

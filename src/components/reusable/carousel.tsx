@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { FaCircleChevronLeft } from "react-icons/fa6";
 import { FaCircleChevronRight } from "react-icons/fa6";
@@ -34,11 +35,14 @@ const Carousel = ({
               : "text-right flex-row-reverse"
           }  w-full select-none h-fit justify-center items-center gap-[95px] text-${textColor}`}
         >
-          <img
+          <Image
             onMouseEnter={imageEnter}
             onMouseLeave={imageLeave}
             className="w-[450px] h-[450px] rounded-[25px]"
             src={item.image}
+            alt={item.image}
+            width={450}
+            height={450}
           />
           <div
             onMouseEnter={textEnter}

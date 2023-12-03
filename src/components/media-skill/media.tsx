@@ -22,7 +22,7 @@ const Media = ({
         textLeave={textLeave}
       />
       <NarrowParagraph
-        image="/images/mandatory-5.png"
+        image="/images/media-1.png"
         text={
           <p>
             This assignment ensures that I can achieve my third learning goal
@@ -41,7 +41,7 @@ const Media = ({
         textLeave={textLeave}
       />
       <NarrowParagraph
-        image="/images/mandatory-5.png"
+        image="/images/media-2.png"
         text={
           <p>
             Initially, my coach and I came to the conclusion that in order to
@@ -59,7 +59,7 @@ const Media = ({
         textLeave={textLeave}
       />
       <WideParagraph
-        image="/images/wide-prod-1.png"
+        image="/images/wide-media-1.png"
         backgroundColor="primary"
         textColor="accent"
         text={
@@ -103,7 +103,7 @@ const Media = ({
         textLeave={textLeave}
       />
       <WideParagraph
-        image="/images/wide-prod-1.png"
+        image="/images/wide-media-2.png"
         backgroundColor="primary"
         textColor="accent"
         text={
@@ -138,7 +138,7 @@ const Media = ({
         textLeave={textLeave}
       />
       <WideParagraph
-        image="/images/wide-prod-1.png"
+        image="/images/wide-media-3.png"
         backgroundColor="primary"
         textColor="accent"
         text={
@@ -171,7 +171,7 @@ const Media = ({
         textLeave={textLeave}
       />
       <NarrowParagraph
-        image="/images/mandatory-5.png"
+        image="/images/media-3.png"
         text={
           <p>
             The process of developing a website was very challenging since it
@@ -191,7 +191,7 @@ const Media = ({
         textLeave={textLeave}
       />
       <NarrowParagraph
-        image="/images/mandatory-5.png"
+        image="/images/media-4.png"
         text={
           <p>
             Once I achieved the correct design templates with the corresponding
@@ -211,7 +211,7 @@ const Media = ({
         textLeave={textLeave}
       />
       <NarrowParagraph
-        image="/images/mandatory-5.png"
+        image="/images/media-5.png"
         text={
           <p>
             To style the website I used Tailwind CSS, a language where I can
@@ -236,7 +236,7 @@ const Media = ({
         textLeave={textLeave}
       />
       <WideParagraph
-        image="/images/wide-reflection-event-1.png"
+        image="/images/wide-media-4.png"
         backgroundColor="accent"
         textColor="text"
         text={
@@ -264,7 +264,7 @@ const Media = ({
           textLeave={textLeave}
         />
         <WideParagraph
-          image="/images/wide-reflection-event-2.png"
+          image="/images/wide-media-5.png"
           backgroundColor="primary"
           textColor="text"
           text={

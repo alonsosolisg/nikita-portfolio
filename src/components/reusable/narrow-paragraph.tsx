@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const NarrowParagraph = ({
@@ -34,11 +35,14 @@ const NarrowParagraph = ({
       >
         {text}
       </div>
-      <img
+      <Image
         onMouseEnter={imageEnter}
         onMouseLeave={imageLeave}
         className="w-[450px] h-[450px] rounded-[20px]"
         src={image}
+        alt={image}
+        width={450}
+        height={450}
       />
     </div>
   );

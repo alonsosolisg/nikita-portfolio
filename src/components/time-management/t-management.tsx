@@ -23,7 +23,7 @@ const TManagement = ({
         textLeave={textLeave}
       />
       <NarrowParagraph
-        image="/images/mandatory-5.png"
+        image="/images/time-man-2.png"
         text={
           <p>
             This assignment ensures that I can achieve my first learning goal:
@@ -43,7 +43,7 @@ const TManagement = ({
         textLeave={textLeave}
       />
       <WideParagraph
-        image="/images/wide-prod-1.png"
+        image="/images/wide-time-man-1.png"
         backgroundColor="primary"
         textColor="accent"
         text={
@@ -71,7 +71,7 @@ const TManagement = ({
         textLeave={textLeave}
       />
       <WideParagraph
-        image="/images/wide-prod-1.png"
+        image="/images/wide-time-man-2.png"
         backgroundColor="primary"
         textColor="accent"
         text={
@@ -139,7 +139,7 @@ const TManagement = ({
         textLeave={textLeave}
       />
       <NarrowParagraph
-        image="/images/mandatory-5.png"
+        image="/images/time-man-3.png"
         text={
           <div className=" mt-8">
             <p className="mb-4">
@@ -173,7 +173,7 @@ const TManagement = ({
         textLeave={textLeave}
       />
       <WideParagraph
-        image="/images/mandatory-5.png"
+        image="/images/wide-time-man-3.png"
         text={
           <div className=" mt-8">
             During the course, I completed about 9 tasks to master the
@@ -189,7 +189,7 @@ const TManagement = ({
         textLeave={textLeave}
       />
       <NarrowParagraph
-        image="/images/mandatory-5.png"
+        image="/images/time-man-4.png"
         text={
           <div className=" mt-8">
             Example of Assignment In this assignment, I had to draw up a work
@@ -208,7 +208,7 @@ const TManagement = ({
         textLeave={textLeave}
       />
       <NarrowParagraph
-        image="/images/mandatory-5.png"
+        image="/images/fundamentals.png"
         text={
           <div className="mt-8">
             On the other hand, the Lecturer gives advice to take some of his
@@ -229,7 +229,7 @@ const TManagement = ({
         textLeave={textLeave}
       />
       <WideParagraph
-        image="/images/wide-mandatory-1.png"
+        image="/images/wide-fundamentals.png"
         text={
           <div className="mt-8">
             <section className="mb-8">
@@ -378,7 +378,7 @@ const TManagement = ({
         textLeave={textLeave}
       />
       <WideParagraph
-        image="/images/wide-reflection-event-1.png"
+        image="/images/wide-time-reflection-2.png"
         backgroundColor="accent"
         textColor="text"
         text={
@@ -461,7 +461,7 @@ const TManagement = ({
           textLeave={textLeave}
         />
         <WideParagraph
-          image="/images/wide-reflection-event-2.png"
+          image="/images/wide-time-reflection-3.png"
           backgroundColor="primary"
           textColor="text"
           text={

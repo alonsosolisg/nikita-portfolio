@@ -22,7 +22,7 @@ const ReflectionMain = ({
         textLeave={textLeave}
       />
       <NarrowParagraph
-        image="/images/mandatory-5.png"
+        image="/images/reflection-1.png"
         text={
           <p>
             My journey of this Event Experience course, I set out with a clear
@@ -41,7 +41,7 @@ const ReflectionMain = ({
         textLeave={textLeave}
       />
       <WideParagraph
-        image="/images/wide-prod-1.png"
+        image="/images/wide-reflection.png"
         backgroundColor="primary"
         textColor="accent"
         text={
@@ -132,7 +132,7 @@ const ReflectionMain = ({
         textLeave={textLeave}
       />
       <NarrowParagraph
-        image="/images/mandatory-5.png"
+        image="/images/reflection-2.png"
         text={
           <p>
             This portfolio is not just a testament to my achievements but a

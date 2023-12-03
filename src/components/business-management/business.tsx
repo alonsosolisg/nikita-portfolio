@@ -200,7 +200,7 @@ const Business = ({
         textLeave={textLeave}
       />
       <NarrowParagraph
-        image="/images/mandatory-5.png"
+        image="/images/business-1.png"
         text={
           <p>
             For this assignment, my primary learning goal is to attain a
@@ -223,7 +223,7 @@ const Business = ({
         textLeave={textLeave}
       />
       <WideParagraph
-        image="/images/wide-prod-1.png"
+        image="/images/wide-business-1.png"
         backgroundColor="primary"
         textColor="accent"
         text={
@@ -272,7 +272,7 @@ const Business = ({
         textLeave={textLeave}
       />
       <NarrowParagraph
-        image="/images/mandatory-5.png"
+        image="/images/business-2.png"
         text={
           <p>
             The sixth edition of &quot;Understanding and Managing Organizational
@@ -288,14 +288,14 @@ const Business = ({
           </p>
         }
         textColor="accent"
-        textPosition="left"
+        textPosition="right"
         imageEnter={imageEnter}
         imageLeave={imageLeave}
         textEnter={textEnter}
         textLeave={textLeave}
       />
       <WideParagraph
-        image="/images/wide-prod-1.png"
+        image="/images/wide-business-2.png"
         backgroundColor="primary"
         textColor="accent"
         text={
@@ -319,7 +319,7 @@ const Business = ({
         textLeave={textLeave}
       />
       <WideParagraph
-        image="/images/wide-reflection-event-1.png"
+        image="/images/wide-business-3.png"
         backgroundColor="accent"
         textColor="text"
         text={
@@ -384,7 +384,7 @@ const Business = ({
           textLeave={textLeave}
         />
         <WideParagraph
-          image="/images/wide-reflection-event-2.png"
+          image="/images/wide-business-4.png"
           backgroundColor="primary"
           textColor="text"
           text={
