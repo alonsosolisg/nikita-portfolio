@@ -4,6 +4,7 @@ import Navbar from "@/components/reusable/navbar";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { useRouter } from "next/router";
+import Footer from "@/components/reusable/footer";
 
 export default function Home() {
   const router = useRouter();
@@ -85,6 +86,7 @@ export default function Home() {
         textLeave={textLeave}
         textEnter={textEnter}
       />
+      <Footer textEnter={textEnter} textLeave={textLeave} />
       <Blob
         mousePosition={mousePosition}
         hoverEnter={hoverEnter}

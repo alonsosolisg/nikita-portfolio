@@ -3,7 +3,7 @@ import WideParagraph from "../reusable/wide-paragraph";
 import Header from "../reusable/header";
 import NarrowParagraph from "../reusable/narrow-paragraph";
 import LocalVideoPlayer from "../reusable/video-player";
-
+import { useRouter } from "next/router";
 const Branding = ({
   textEnter,
   textLeave,
@@ -15,6 +15,24 @@ const Branding = ({
   imageEnter: () => void;
   imageLeave: () => void;
 }) => {
+  const { basePath } = useRouter();
+
+  const handleDownload = (imgUrl: string) => {
+    const imageUrl = `${basePath + "/images/" + imgUrl}.png`;
+
+    fetch(imageUrl)
+      .then((response) => response.blob())
+      .then((blob) => {
+        const link = document.createElement("a");
+        const blobUrl = URL.createObjectURL(blob);
+        link.href = blobUrl;
+        link.download = `${imgUrl}.png`;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      })
+      .catch((error) => console.error("Error downloading image:", error));
+  };
   return (
     <div className="py-20">
       <Header
@@ -26,15 +44,17 @@ const Branding = ({
         image="/images/pr-goal.png"
         text={
           <p>
-            I want to present myself as a Specialist. The Personal Branding task
-            is designed to help me accomplish my initial learning objective,
-            which is to master the art of presenting myself as a producer. By
-            creating a positive persona and a compelling PR video, I can
-            effectively showcase my skills as a producer and specialist in
-            general. These materials will serve as valuable assets for job
-            applications, allowing potential employers to gain a deeper
-            understanding of who I am. Through this approach, I aim to stand out
-            from other candidates in labor market.
+            <span className="font-black">
+              I want to present myself as a Specialist.
+            </span>{" "}
+            The Personal Branding task is designed to help me accomplish my
+            initial learning objective, which is to master the art of presenting
+            myself as a producer. By creating a positive persona and a
+            compelling PR video, I can effectively showcase my skills as a
+            producer and specialist in general. These materials will serve as
+            valuable assets for job applications, allowing potential employers
+            to gain a deeper understanding of who I am. Through this approach, I
+            aim to stand out from other candidates in labor market.
           </p>
         }
         textColor="accent"
@@ -88,11 +108,13 @@ const Branding = ({
         image="/images/branding-1.png"
         text={
           <p>
-            Why logo is important for Personal Branding?: In the realm of
-            personal branding, a logo becomes a powerful emblem encapsulating
-            the essence of one&apos;s individual identity. Serving as a visual
-            touchstone, a thoughtfully crafted logo imparts a sense of
-            professionalism and meticulous personal branding. It acts as a
+            <span className="font-black">
+              Why logo is important for Personal Branding?
+            </span>{" "}
+            In the realm of personal branding, a logo becomes a powerful emblem
+            encapsulating the essence of one&apos;s individual identity. Serving
+            as a visual touchstone, a thoughtfully crafted logo imparts a sense
+            of professionalism and meticulous personal branding. It acts as a
             consistent thread woven through various platforms, from social media
             profiles to personal websites, contributing to a cohesive and
             memorable representation. In the competitive landscape of personal
@@ -112,8 +134,10 @@ const Branding = ({
         image="/images/branding-2.png"
         text={
           <p>
-            Why I create exactly this Logo and what the meaning of the Logo?: I
-            crafted my logo using the platform Canva, emphasizing my unique
+            <span className="font-black">
+              Why I create exactly this Logo and what the meaning of the Logo?
+            </span>
+            I crafted my logo using the platform Canva, emphasizing my unique
             selling proposition (USP) rooted in authenticity and expertise. By
             consistently being true to myself and showcasing my skills, I chose
             to feature my initials in the design (N.EE). With a target audience
@@ -137,7 +161,7 @@ const Branding = ({
         textColor="accent"
         text={
           <div>
-            <h2>Goals for my Personal Branding</h2>
+            <h2 className="font-black mb-4">Goals for my Personal Branding</h2>
             <p>
               At the outset of this learning journey, I identified three key
               learning objectives. The initial goal, centered around Personal
@@ -172,7 +196,9 @@ const Branding = ({
         textColor="accent"
         text={
           <div>
-            <h2>Process of Developing My Persona</h2>
+            <h2 className="font-black mb-4">
+              Process of Developing My Persona
+            </h2>
             <p>
               The choice of Art-Deco Brown Gold for my persona holds deliberate
               significance, reflecting a thoughtful consideration of both
@@ -208,7 +234,9 @@ const Branding = ({
         image="/images/branding-3.png"
         text={
           <div>
-            <h2>Process of Developing My Persona</h2>
+            <h2 className="font-black mb-4">
+              Process of Developing My Persona
+            </h2>
             <p>
               I chose to create a simple and straightforward CV for my portfolio
               because it allows me to communicate my professional identity in a
@@ -234,6 +262,25 @@ const Branding = ({
         textEnter={textEnter}
         textLeave={textLeave}
       />
+
+      <div className="flex w-full justify-center gap-16 items-center pb-20 pt-10">
+        <button
+          onClick={() => handleDownload("nikita_eesmaa_persona")}
+          onMouseEnter={textEnter}
+          onMouseLeave={textLeave}
+          className="bg-primary cursor-none px-4 py-2 rounded-2xl text-background hover:scale-110"
+        >
+          DOWNLOAD PERSONA
+        </button>
+        <button
+          onClick={() => handleDownload("nikita_eesmaa_cv")}
+          onMouseEnter={textEnter}
+          onMouseLeave={textLeave}
+          className="bg-primary cursor-none px-4 py-2 rounded-2xl text-background hover:scale-110"
+        >
+          DOWNLOAD CV
+        </button>
+      </div>
       <Header
         content="Reflection Analysis"
         textEnter={textEnter}

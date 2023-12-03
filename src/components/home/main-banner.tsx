@@ -13,7 +13,7 @@ const MianBanner = ({
   imageLeave: () => void;
 }) => {
   return (
-    <div className="w-full font-avenir h-fit justify-center items-center gap-[71px] inline-flex">
+    <div className="pb-2 -mt-8 w-full font-avenir h-fit justify-center items-center gap-[71px] inline-flex">
       <div className="flex-col justify-center items-start gap-[15px] inline-flex">
         <div
           onMouseEnter={textEnter}
